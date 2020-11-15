@@ -1,0 +1,24 @@
+body {
+    background: #eee;
+   font-family: sans-serif;
+}
+div {
+   background: #111;
+   color: #eee;
+   height: 300px;
+   width:20%;
+}
+
+ /* when the device width is greater than or equal to 500px.(desktop size) */
+@media (min-width: 900px) { 
+  
+ body {
+   background: #ff0000;
+ }
+
+ div {
+     float: left;
+     margin-left: 10px;
+     width: 30%;
+ }
+}
