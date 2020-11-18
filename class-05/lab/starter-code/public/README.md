@@ -11,7 +11,6 @@ For today's lab assignment, you will work independently to create a personal por
 ## Repository Set-up
 
 - Create a new repository on GitHub named `portfolio`. Clone it to your local file system.
-- Pull the starter code from your course repository's `upstream` remote.
 - From the command line, copy the contents of the `starter-code` folder from the course repository into the root of your `portfolio` repository. Play around with the `cp` command until you get it exactly right. Don't worry if you don't get it right the first time, just clear out the attempt, and try again.
 - Add and commit this initial state of the code base to your master branch.
 - From this point on, work on semantically-named non-master branches. Remember to add, commit, and push regularly.
