@@ -1,0 +1,24 @@
+{
+  "name": "amman301d10-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazanAl-Quran/amman301d10-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RazanAl-Quran/amman301d10-server/issues"
+  },
+  "homepage": "https://github.com/RazanAl-Quran/amman301d10-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
