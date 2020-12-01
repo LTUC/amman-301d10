@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>To-Do List</title>
+</head>
+
+
+<body>
+
+  <header>
+    <h1>My To-Do List</h1>
+    <%- include('layout/navbar') %>
+  </header>
+
+  <main>
+    <section>
+      <ul>
+        <li>
+          <h4>Task: <%= taskInfo.title %></h4>
+          <p>Status: <%= taskInfo.status %></p>
+          <p>Description: <%= taskInfo.description %></p>
+          <p>Contact: <%= taskInfo.contact %></p>
+          <p>Category: <%= taskInfo.category %></p>
+        </li>
+      </ul>
+
+      <form action="/deleteTask/<%= taskInfo.id %>?_method=delete" method="post">
+        <button>Delete task</button>
+      </form>
+
+
+      <button id='updateBtn'> Update </button>
+      <br>
+      <section id='updateForm'>
+        <h2>update task</h2>
+        <form action="/updateTask/<%= taskInfo.id %>?_method=put" method="post">
+          <input type="text" name="title" value='<%= taskInfo.title %>'>
+          <textarea name="description" id="" cols="30" rows="10"><%= taskInfo.description %></textarea>
+          <input type="text" name="category" value="<%= taskInfo.category %>">
+          <input type="text" name="contact" value="<%= taskInfo.contact %>">
+          <input type="text" name="status" value="<%= taskInfo.status %>">
+          <button>update task</button>
+        </form>
+      </section>
+
+
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="/app.js"></script>
+</body>
+
+</html>
