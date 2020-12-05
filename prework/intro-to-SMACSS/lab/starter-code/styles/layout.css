@@ -1,0 +1,98 @@
+
+nav {
+    margin-top: 25px;
+  }
+  #logo {
+    float: left;
+    padding-bottom: 25px;
+  }
+
+  #logo img {
+    float: left;
+  }
+  #logo h1{
+    padding-left: 50px; 
+  }
+
+  #logo h1 {
+  
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.4em;
+  }
+  #slogan{
+    padding-left: 55px;
+
+  }
+  nav ul {
+    float: right;
+  }
+  nav li {
+    float: left;
+    padding-right: 2px;
+  }
+
+  h2 {
+    margin-top: 50px;
+
+  }
+  .print, .date{
+    margin: 0;
+ 
+    margin-top: 10px;
+    margin-bottom: 33px;
+
+
+  }
+  .date {
+    float: left;
+  }
+  .print {
+  
+    padding-left: 30px;
+    float: right;
+  }
+
+  .print img {
+    margin-right: 3px;
+  }
+  main p {
+  
+    margin: 20px 0px;
+  }
+  .recipe{
+  padding: 37px 0 0 60px;
+  margin: 40px 0;
+  letter-spacing: .1em;
+  }
+
+  
+.recipe li {
+    float: left;
+   
+  }
+
+  aside {
+    padding-top: 30px;
+    padding-bottom: 60px
+  }
+  aside img {
+    float: left;
+  }
+
+  
+
+aside h3 {
+    padding-left: 100px;
+    
+  }
+  aside p{
+  padding-left: 100px;
+
+  margin: 0;
+  }
+  aside button {
+    float: right;
+   
+    padding: 15px 40px;
+    
+  }
